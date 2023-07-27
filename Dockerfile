@@ -12,4 +12,4 @@ EXPOSE 5000
 
 ENTRYPOINT ["open-api-mocker"]
 
-CMD ["-s", "/app/schema.yaml"]
+CMD ["-s", "/app/schema.yaml", "-w"]
